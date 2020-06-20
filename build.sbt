@@ -1,3 +1,5 @@
+libraryDependencies += "ch.epfl.lamp" %% "dotty-staging" % scalaVersion.value
+
 lazy val root = project
   .in(file("."))
   .settings(

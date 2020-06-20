@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -25,6 +26,8 @@ object Main {
     runExample("Structural Types")(StructuralTypes.test)
 
     runExample("Pattern Matching")(PatternMatching.test)
+
+    runExample("Metaprogramming")(Metaprogramming.test)
 
   }
 
