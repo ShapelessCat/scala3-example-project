@@ -7,5 +7,7 @@ lazy val root = project
 
     scalaVersion := "3.0.0-M3",
 
+    libraryDependencies += "org.scala-lang" %% "scala3-tasty-inspector" % scalaVersion.value,
+
     useScala3doc := true,
   )
